@@ -18,7 +18,7 @@ Aplikasi ini terdiri dari dua layar utama:
 * **Read:** Menampilkan daftar semua warga di `MainActivity` dan memuat data warga spesifik di `DetailActivity`.
 * **Update:** (Tersirat) Mengedit data warga yang sudah ada melalui `DetailActivity`.
 * **Delete:** Menghapus data yang sudah diinputkan.
-* **Validasi:** Memberikan notifikasi *Toast* jika pengguna mencoba menyimpan data dengan kolom yang masih kosong[cite: 88].
+* **Validasi:** Memberikan notifikasi *Toast* jika pengguna mencoba menyimpan data dengan kolom yang masih kosong.
 * **Reset:** Tombol untuk mengosongkan formulir.
 
 ## 🛠️ Teknologi & Arsitektur
