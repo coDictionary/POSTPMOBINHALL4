@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Data Warga"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIK"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etKabupaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kabupaten"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etKecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kecamatan"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etDesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Desa"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etRt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RT"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etRw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RW"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Kelamin"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/etStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Status Pernikahan"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hapus Data Ini"
+            android:backgroundTint="#8B0000"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

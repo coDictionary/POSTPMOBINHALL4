@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Kewarganegaraan Indonesia:"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap" />
+
+        <EditText
+            android:id="@+id/etNIK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan NIK"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etKabupaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kabupaten" />
+
+        <EditText
+            android:id="@+id/etKecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kecamatan" />
+
+        <EditText
+            android:id="@+id/etDesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Desa" />
+
+        <EditText
+            android:id="@+id/etRT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RT"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etRW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RW"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin:" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbLaki"
+                android:text="Laki-Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rbPerempuan"
+                android:text="Perempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Pernikahan :" />
+
+        <Spinner
+            android:id="@+id/spStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#0B6623"
+            android:text="Simpan Data"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#8B0000"
+            android:text="Reset Data"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvDaftarWarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Daftar Warga Negara:"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</ScrollView>
